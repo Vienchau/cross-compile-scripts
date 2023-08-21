@@ -1,7 +1,7 @@
 #!/bin/sh
 make clean
 export PREFIX=""
-export CROSS_COMPILE="/root/workspace/resource/toolchains/asdk-5.4.1-a53-EL-4.4-g2.23-a64nut-170801-r1/bin/aarch64-linux-gnu-"
+export CROSS_COMPILE=""
 
 export CPPFLAGS="-I${ROOTDIR}/include"
 export LDFLAGS="-L${ROOTDIR}/lib"
